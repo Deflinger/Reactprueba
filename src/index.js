@@ -7,8 +7,8 @@ function Greeting() {
     return <div >
         <
         h1 > Este es un componente < /h1> <
-        p > Creaty fallo < /p> <
-        /div>
+    p > Creaty fallo < /p> < /
+        div >
 }
 root.render( < div >
         <
@@ -17,6 +17,7 @@ root.render( < div >
         Greeting / >
         <
         Greeting / >
-
+        <
+        Greeting / >
         <
         /div>)
