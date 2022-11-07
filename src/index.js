@@ -3,20 +3,22 @@ import ReactDOM from 'react-dom/client'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
+
+
 function Greeting() {
-    return <div >
-        <
-        h1 > Este es un componente < /h1> <
-    p > Creaty fallo < /p> < /
-        div >
+
+    const estcivil = true
+
+    if (estcivil) {
+        return <h1 > Estoy casado < /h1>
+    } else {
+        return <h1 > no estoy casado < /h1>
+    }
+
 }
+
 root.render( < div >
-        <
-        Greeting / >
-        <
-        Greeting / >
-        <
-        Greeting / >
+
         <
         Greeting / >
         <
